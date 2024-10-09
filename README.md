@@ -20,7 +20,7 @@ J'ai changé la construction des différents fichiers.
 ## train_PD_model
 
     - Régression logistique
-    - Evaluation de la perfomance avec ROC AUC, Gini, Kolmogorov-Smirnov, 
+    - Evaluation de la perfomance avec ROC AUC, Gini, Kolmogorov-Smirnov
     - Monitoring avec les données postérieur à 2018
 
 ## train_LGD_model
