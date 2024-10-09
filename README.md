@@ -9,13 +9,31 @@ J'ai changé la construction des différents fichiers.
 
 ## preprocess_database
 
-Ce fichier a pour but de construire le traité la base de données sur lequel le modèle à été entrainé. Il était de 2 millions de lignes, j'ai décidé de garder seulement 500 milles lignes. Nous l'avons ensuite rediviser avec les données antérieur à 2018 et postérieur à 2018 dans le but de monitorer les données.
+    - Ce fichier a pour but de construire le traité la base de données sur lequel le modèle à été entrainé. 
+    - Echantillonage du fichier de base (2M de lignes), pour garder 500K lignes.
+    - Redivision des données antérieur à 2018 et postérieur à 2018 dans le but de monitorer les données avec ultérieurement.
 
 ## preprocess_data
 
-Nous avons modifié les données en normalisant les variables continues directement et en transformant les variables catégorielles en leur WoE puis en les normalisants.
+    - Modification des données en normalisant les variables continues
+    - Tranformation des variables catégorielles en leur WoE puis en les normalisants.
 
 ## train_PD_model
+
+    - Régression logistique
+    - Evaluation de la perfomance avec ROC AUC, Gini, Kolmogorov-Smirnov, 
+    - Monitoring avec les données postérieur à 2018
+
 ## train_LGD_model
+
+    - Régression beta
+    - Evaluation de la perfomance avec MAE, MSE, RMSE et R²
+
 ## train_EAD_model
+
+    - Régression linéaire
+    - Evaluation de la perfomance avec MAE, MSE, RMSE et R²
+
 ## calculate_EL
+    
+    - Calcul de EL
