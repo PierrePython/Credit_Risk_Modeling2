@@ -9,7 +9,6 @@ J'ai changé la construction des différents fichiers.
 
 ## preprocess_database
 
-    - Ce fichier a pour but de construire le traité la base de données sur lequel le modèle à été entrainé. 
     - Echantillonage du fichier de base (2M de lignes), pour garder 500K lignes.
     - Redivision des données antérieur à 2018 et postérieur à 2018 dans le but de monitorer les données avec ultérieurement.
 
