@@ -46,4 +46,4 @@ Le projet est divisé en plusieurs étapes : prétraitement des données, modél
 
 ## Conclusion
 
-Ce projet met en œuvre une modélisation complète du risque de crédit en utilisant des techniques avancées telles que la transformation WoE et les régressions logistique, beta et linéaire. Il s'agit d'un framework efficace pour prédire et gérer les risques associés aux prêts, avec des indicateurs de performance robustes.
+Ce projet met en œuvre une modélisation complète du risque de crédit en utilisant la transformation WoE et les régressions logistique, beta et linéaire. Libre de droit.
